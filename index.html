@@ -113,12 +113,13 @@
        .icon {
            width: 50px; /* عرض دلخواه */
            height: 50px; /* ارتفاع دلخواه */
-	   transition: opacity 0.3s;
+	   transition: opacity 0.3s, background-image 0.3s;
 	   gap: 20x;
        }
 
        .icon:hover {
            background-image: url('assets/navbar/contact-hover.png');
+	   opacity: 0;
 	   background-size: cover; /* تصویر را متناسب با ابعاد ایکون تنظیم می‌کند */
            background-repeat: no-repeat; /* جلوگیری از تکرار تصویر */
            background-position: center; /* تصویر را در مرکز قرار می‌دهد */
