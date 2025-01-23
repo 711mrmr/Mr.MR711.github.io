@@ -107,13 +107,16 @@
 
        .nav-contact:hover {
            background-image: url('assets/navbar/contact-hover.png');
+	   background-size: cover;
+           background-repeat: no-repeat;
+           background-position: center;
 	   border-radius: 10px;
        }
 
        .icon {
            width: 50px; /* عرض دلخواه */
            height: 50px; /* ارتفاع دلخواه */
-	   transition: opacity 0.0003s, background-image 0.3s;
+	   transition: opacity 0.3s, background-image 0.3s;
 	   gap: 20x;
        }
 
@@ -223,9 +226,6 @@
         </a>
         <a href="#" class="nav-item">
             <img src="assets/navbar/about-icon.png" alt="About" class="icon">
-        </a>
-        <a href="#" class="nav-item">
-            <img src="assets/navbar/contact-icon.png" alt="Contact" class="icon">
         </a>
     </div>
 </nav>
