@@ -69,6 +69,7 @@
            max-width: 800px;
            z-index: 10;
            display: flex;
+	   gap: 20px;
            justify-content: space-around;
            align-items: center;
            padding: 10px;
@@ -112,6 +113,11 @@
        .icon {
            width: 50px; /* عرض دلخواه */
            height: 50px; /* ارتفاع دلخواه */
+	   transition: opacity 0.3s;
+       }
+
+       .icon:hover {
+           opacity: 0.7; /* تغییر حالت در hover */
        }
 	    
        .container {
