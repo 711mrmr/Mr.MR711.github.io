@@ -107,7 +107,7 @@
             margin-bottom: 2rem;
         }
 
-        intro h1.desktop2-title {
+        .intro h1.desktop2-title {
             margin: 0;
             font-size: 2.8rem;
             text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.3);
@@ -115,7 +115,7 @@
             display: block;
         }
 
-        intro h2.mobile2-title {
+        .intro h2.mobile2-title {
             margin: 0;
             font-size: 2rem;
             text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.3);
@@ -124,10 +124,10 @@
         }
 
         @media (max-width: 767px) {
-           intro h1.desktop2-title {
+           .intro h1.desktop2-title {
                display: none;
            }
-           intro h2.mobile2-title {
+           .intro h2.mobile2-title {
                display: block;
            }
         }
