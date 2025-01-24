@@ -180,8 +180,8 @@
 
         #backToTop {
             position: fixed;
-            bottom: 40px;
-            right: 20px;
+            bottom: 30px;
+            right: 30px;
             display: none; /* ابتدا دکمه نمایش داده نشود */
             background-color: #1078d8;
             color: white;
