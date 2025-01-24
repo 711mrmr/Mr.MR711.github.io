@@ -28,15 +28,15 @@
             margin: 0;
             font-size: 3.5rem;
             text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.3);
-	        margin: 20px;
+	    margin: 20px;
             display: block;
         }
 
         header h2.mobile-title {
             margin: 0;
-            font-size: 1.7rem;
+            font-size: 1.75rem;
             text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.3);
-	        margin: 20px;
+	    margin: 20px;
             display: none;
         }
 
@@ -71,15 +71,15 @@
        .icon-home {
            width: 35px; /* عرض دلخواه */
            height: 35px; /* ارتفاع دلخواه */
-	       transition: transform 0.3s, background-image 0.3s;
-	       margin: 10px;
+           transition: transform 0.3s, background-image 0.3s;
+	   margin: 10px;
        }
 
        .icon {
            width: 35px; /* عرض دلخواه */
            height: 35px; /* ارتفاع دلخواه */
-	       transition: transform 0.3s, background-image 0.3s;
-	       margin: 10px;
+	   transition: transform 0.3s, background-image 0.3s;
+	   margin: 10px;
            margin-right: 100px;
        }
 
@@ -102,7 +102,7 @@
 
         .intro {
             text-align: center;
-	        text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+	    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
             margin-bottom: 2rem;
         }
 
@@ -110,6 +110,31 @@
             font-size: 2.8rem;
             color: #4d4d4d;
             margin-top: 0; /* حذف فاصله اضافی بالای متن */
+        }
+
+        intro h1.desktop-title {
+            margin: 0;
+            font-size: 2.8rem;
+            text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.3);
+	    margin: 20px;
+            display: block;
+        }
+
+        intro h2.mobile-title {
+            margin: 0;
+            font-size: 2rem;
+            text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.3);
+	    margin: 20px;
+            display: none;
+        }
+
+        @media (max-width: 767px) {
+           intro h1.desktop-title {
+               display: none;
+           }
+           intro h2.mobile-title {
+               display: block;
+           }
         }
 
         .projects {
@@ -127,7 +152,7 @@
             box-shadow: 0 6px 8px rgba(0, 0, 0, 0.1);
             overflow: hidden;
             transition: transform 0.3s, box-shadow 0.3s;
-            width: 360px;
+            width: 350px;
         }
 
         .project:hover {
@@ -168,7 +193,7 @@
             background-color: #1078d8;
             color: white;
             border: none;
-            padding: 19px 20px;
+            padding: 20px 20px;
             border-radius: 20%;
             cursor: pointer;
             font-size: 18px;
