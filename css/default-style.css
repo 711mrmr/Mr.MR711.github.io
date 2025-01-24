@@ -103,8 +103,6 @@
         .intro {
             text-align: center;
 	    color: #4d4d4d;
-	    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
-            margin-bottom: 2rem;
         }
 
         .intro h1.desktop2-title {
