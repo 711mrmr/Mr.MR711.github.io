@@ -106,12 +106,6 @@
             margin-bottom: 2rem;
         }
 
-        .intro h2 {
-            font-size: 2.8rem;
-            color: #4d4d4d;
-            margin-top: 0; /* حذف فاصله اضافی بالای متن */
-        }
-
         intro h1.desktop-title {
             margin: 0;
             font-size: 2.8rem;
@@ -193,7 +187,7 @@
             background-color: #1078d8;
             color: white;
             border: none;
-            padding: 20px 20px;
+            padding: 19px 20px;
             border-radius: 20%;
             cursor: pointer;
             font-size: 18px;
