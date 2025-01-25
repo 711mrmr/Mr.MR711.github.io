@@ -66,24 +66,32 @@
 	</button>
 	   
 	
-	<script>
-     // گرفتن دکمه
-     const backToTopButton = document.getElementById("backToTop");
+<script>
+  // گرفتن دکمه
+  const backToTopButton = document.getElementById("backToTop");
 
-     // نمایش دکمه وقتی کاربر به پایین صفحه می‌رود
-     window.onscroll = function() {
-       if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
-         backToTopButton.style.display = "block";
-       } else {
-         backToTopButton.style.display = "none";
-        }
-      };
+  // نمایش دکمه وقتی کاربر به پایین صفحه می‌رود
+  window.onscroll = function () {
+    if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
+      backToTopButton.style.display = "block";
+    } else {
+      backToTopButton.style.display = "none";
+    }
+  };
 
-      // بازگشت به بالای صفحه با کلیک روی دکمه
-      backToTopButton.onclick = function() {
-        window.scrollTo({ top: 0, behavior: 'smooth' });
-      };
-	</script>
+  // بازگشت به بالای صفحه با کلیک روی دکمه
+  backToTopButton.addEventListener("click", function () {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+
+    // حذف حالت hover بعد از کلیک
+    backToTopButton.classList.add("no-hover");
+
+    // بازگشت به حالت عادی بعد از مدت کوتاه
+    setTimeout(() => {
+      backToTopButton.classList.remove("no-hover");
+    }, 300); // این زمان را می‌توان تنظیم کرد
+  });
+</script>
 
     <footer id="contact">
         <bl>.محفوظ است
