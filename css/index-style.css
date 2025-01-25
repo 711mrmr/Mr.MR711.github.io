@@ -14,7 +14,7 @@
 
         header {
             background: linear-gradient(135deg, #1078d8, #1078d8);
-			font-family: 'Proza', sans-serif;
+	    font-family: 'Proza', sans-serif;
             color: #e6e6e6;
             padding: 1.5rem 2rem;
             text-align: center;
@@ -95,7 +95,7 @@
            display: inline-block;
            transition: transform 0.3s, background 0.3s, border-radius 0.3s;
 	   margin: 10px;
-	   margin-right: 60px;
+	   margin-right: 55px;
 	   border-radius: 10px;
        }
 
@@ -116,7 +116,7 @@
 	   display: inline-block;
            transition: transform 0.3s, background 0.3s, border-radius 0.3s;
 	   margin: 10px;
-	   margin-right: 60px;
+	   margin-right: 55px;
 	   border-radius: 10px;
        }
 
