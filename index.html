@@ -60,6 +60,49 @@
 	   
 	
 <script>
+
+  document.querySelectorAll(".nav-item-home").forEach(icon => {
+    // شبیه‌سازی hover هنگام لمس یا کلیک
+    icon.addEventListener("touchstart", () => {
+      icon.classList.add("hover-active");
+    });
+
+    // حذف hover وقتی لمس قطع می‌شود
+    icon.addEventListener("touchend", () => {
+      setTimeout(() => {
+        icon.classList.remove("hover-active");
+      }, 1200); // زمان برای طبیعی‌تر شدن تعامل
+    });
+  });
+
+  document.querySelectorAll(".nav-item-contact").forEach(icon => {
+    // شبیه‌سازی hover هنگام لمس یا کلیک
+    icon.addEventListener("touchstart", () => {
+      icon.classList.add("hover-active");
+    });
+
+    // حذف hover وقتی لمس قطع می‌شود
+    icon.addEventListener("touchend", () => {
+      setTimeout(() => {
+        icon.classList.remove("hover-active");
+      }, 1200); // زمان برای طبیعی‌تر شدن تعامل
+    });
+  });
+  
+    document.querySelectorAll(".nav-item-about").forEach(icon => {
+    // شبیه‌سازی hover هنگام لمس یا کلیک
+    icon.addEventListener("touchstart", () => {
+      icon.classList.add("hover-active");
+    });
+
+    // حذف hover وقتی لمس قطع می‌شود
+    icon.addEventListener("touchend", () => {
+      setTimeout(() => {
+        icon.classList.remove("hover-active");
+      }, 1200); // زمان برای طبیعی‌تر شدن تعامل
+    });
+  });	
+	
   // گرفتن دکمه
   const backToTopButton = document.getElementById("backToTop");
 
