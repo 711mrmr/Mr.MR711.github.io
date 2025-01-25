@@ -61,6 +61,19 @@
 	
 <script>
 
+  document.querySelectorAll(".nav-item-hom").forEach(icon => {
+    icon.addEventListener("click", event => {
+      event.preventDefault(); // جلوگیری از رفتار پیش‌فرض کلیک
+      const targetLink = icon.getAttribute("href");
+
+      setTimeout(() => {
+        if (targetLink) {
+          window.location.href = targetLink;
+        }
+      }, 1000); // تاخیر یک ثانیه‌ای برای باز شدن لینک
+    });
+  });
+	
   document.querySelectorAll(".nav-item-home").forEach(icon => {
     // شبیه‌سازی hover هنگام لمس یا کلیک
     icon.addEventListener("touchstart", () => {
@@ -71,7 +84,7 @@
     icon.addEventListener("touchend", () => {
       setTimeout(() => {
         icon.classList.remove("hover-active");
-      }, 1500); // زمان برای طبیعی‌تر شدن تعامل
+      }, 700); // زمان برای طبیعی‌تر شدن تعامل
     });
   });
 
