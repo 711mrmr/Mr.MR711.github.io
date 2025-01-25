@@ -231,7 +231,7 @@
         }
 
         #backToTop.no-hover:hover {
-            background-color: #007bff; /* غیرفعال کردن تغییر رنگ hover */
+            background-color: #1078d8; /* غیرفعال کردن تغییر رنگ hover */
             transform: scale(1.1);
         }
 
