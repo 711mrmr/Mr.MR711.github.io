@@ -230,6 +230,10 @@
             transform: scale(1.1); /* هنگام هاور کمی بزرگ‌تر شود */
         }
 
+        #backToTop.no-hover:hover {
+            background-color: #007bff; /* غیرفعال کردن تغییر رنگ hover */
+        }
+
        .icon-backToTop {
            width: 14px; /* عرض دلخواه */
            height: 14px; /* ارتفاع دلخواه */
