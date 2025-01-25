@@ -227,12 +227,12 @@
 
         #backToTop:hover {
             background-color: #1078d8;
-            transform: scale(1.1); /* هنگام هاور کمی بزرگ‌تر شود */
+            transform: scale(1); /* هنگام هاور کمی بزرگ‌تر شود */
         }
 
         #backToTop.no-hover:hover {
             background-color: #007bff; /* غیرفعال کردن تغییر رنگ hover */
-            transform: scale(1);
+            transform: scale(1.1);
         }
 
        .icon-backToTop {
