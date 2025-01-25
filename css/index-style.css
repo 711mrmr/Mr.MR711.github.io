@@ -52,7 +52,7 @@
            background-color: #fff;
            box-shadow: 0 6px 8px rgba(0, 0, 0, 0.1);
            border-radius: 20px;
-           margin: -37px auto 20px auto; /* فاصله اضافی حذف شد */
+           margin: -37px auto 20px auto;
            width: calc(100% - 40px);
            max-width: 800px;
            z-index: 10;
@@ -86,6 +86,10 @@
 	   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
        }
 
+       .nav-item-home.hover-active {
+           transform: scale(1.45);
+        }
+
        .nav-item-contact {
            width: 60px;
            height: 40px;
@@ -109,10 +113,14 @@
            border-radius: 10px;
 	   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
        }
+
+       .nav-item-contact.hover-active {
+           transform: scale(1.45);
+        }
 	    
        .nav-item-about {
-           width: 60px; /* عرض دلخواه */
-           height: 40px; /* ارتفاع دلخواه */
+           width: 60px;
+           height: 40px;
 	   background: url(assets/navbar/about-icon.png);
 	   background-size: cover;
 	   display: inline-block;
@@ -132,7 +140,11 @@
 	   transform: scale(1.45);
            border-radius: 10px;
 	   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-       }		
+       }
+
+       .nav-item-about.hover-active {
+           transform: scale(1.45);
+        }
 		
        .container {
             max-width: 1200px;
@@ -237,17 +249,17 @@
 
         #backToTop:hover {
             background-color: #1078d8;
-            transform: scale(1); /* هنگام هاور کمی بزرگ‌تر شود */
+            transform: scale(1);
         }
 
         #backToTop.no-hover:hover {
-            background-color: #1078d8; /* غیرفعال کردن تغییر رنگ hover */
+            background-color: #1078d8;
             transform: scale(1.1);
         }
 
        .icon-backToTop {
-           width: 14px; /* عرض دلخواه */
-           height: 14px; /* ارتفاع دلخواه */
+           width: 14px;
+           height: 14px;
 	   transition: transform 0.3s, background-image 0.3s;
        }
 
