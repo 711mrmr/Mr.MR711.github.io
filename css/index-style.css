@@ -124,6 +124,7 @@
 	   margin: 10px;
 	   margin-right: 50px;
 	   border-radius: 10px;
+	   vertical-align: middle;
        }
 
       .nav-item-about:hover {
