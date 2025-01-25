@@ -60,10 +60,13 @@
            justify-content: space-around;
            align-items: center;
            padding: 10px;
+	   height: 60px;
        }
 
        .nav-item {
            text-decoration: none;
+           display: inline-block;
+	   vertical-align: middle;
        }
 
        .nav-item-home {
@@ -75,6 +78,7 @@
            transition: transform 0.3s, background 0.3s, border-radius 0.3s;
 	   margin: 10px;
 	   border-radius: 10px;
+           vertical-align: middle;
        }
 
       .nav-item-home:hover {
@@ -97,6 +101,7 @@
 	   margin: 10px;
 	   margin-right: 50px;
 	   border-radius: 10px;
+	   vertical-align: middle;
        }
 
       .nav-item-contact:hover {
