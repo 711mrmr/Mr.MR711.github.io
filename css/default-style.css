@@ -94,7 +94,7 @@
 		   display: inline-block;
            transition: transform 0.3s, background 0.3s, border-radius 0.3s;
 	       margin: 10px;
-		   margin-right: 80px;
+		   margin-right: 85px;
 		   border-radius: 10px;
        }
 
@@ -113,7 +113,7 @@
 		   display: inline-block;
            transition: transform 0.3s, background 0.3s, border-radius 0.3s;
 	       margin: 10px;
-		   margin-right: 80px;
+		   margin-right: 85px;
 		   border-radius: 10px;
        }
 
@@ -217,7 +217,7 @@
             background-color: #1078d8;
             color: white;
             border: none;
-            padding: 10px 12px;
+            padding: 12px 12px;
             border-radius: 20%;
             cursor: pointer;
             font-size: 8px;
@@ -231,8 +231,8 @@
         }
 
        .icon-backToTop {
-           width: 12px; /* عرض دلخواه */
-           height: 12px; /* ارتفاع دلخواه */
+           width: 14px; /* عرض دلخواه */
+           height: 14px; /* ارتفاع دلخواه */
 	       transition: transform 0.3s, background-image 0.3s;
        }
 
