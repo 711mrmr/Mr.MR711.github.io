@@ -70,7 +70,7 @@
         if (targetLink) {
           window.location.href = targetLink;
         }
-      }, 1000); // تاخیر یک ثانیه‌ای برای باز شدن لینک
+      }, 700); // تاخیر یک ثانیه‌ای برای باز شدن لینک
     });
   });
 	
@@ -84,7 +84,20 @@
     icon.addEventListener("touchend", () => {
       setTimeout(() => {
         icon.classList.remove("hover-active");
-      }, 700); // زمان برای طبیعی‌تر شدن تعامل
+      }, 500); // زمان برای طبیعی‌تر شدن تعامل
+    });
+  });
+
+  document.querySelectorAll(".nav-item-contact").forEach(icon => {
+    icon.addEventListener("click", event => {
+      event.preventDefault(); // جلوگیری از رفتار پیش‌فرض کلیک
+      const targetLink = icon.getAttribute("href");
+
+      setTimeout(() => {
+        if (targetLink) {
+          window.location.href = targetLink;
+        }
+      }, 700); // تاخیر یک ثانیه‌ای برای باز شدن لینک
     });
   });
 
@@ -98,7 +111,20 @@
     icon.addEventListener("touchend", () => {
       setTimeout(() => {
         icon.classList.remove("hover-active");
-      }, 1500); // زمان برای طبیعی‌تر شدن تعامل
+      }, 500); // زمان برای طبیعی‌تر شدن تعامل
+    });
+  });
+
+  document.querySelectorAll(".nav-item-about").forEach(icon => {
+    icon.addEventListener("click", event => {
+      event.preventDefault(); // جلوگیری از رفتار پیش‌فرض کلیک
+      const targetLink = icon.getAttribute("href");
+
+      setTimeout(() => {
+        if (targetLink) {
+          window.location.href = targetLink;
+        }
+      }, 700); // تاخیر یک ثانیه‌ای برای باز شدن لینک
     });
   });
   
@@ -112,7 +138,7 @@
     icon.addEventListener("touchend", () => {
       setTimeout(() => {
         icon.classList.remove("hover-active");
-      }, 1500); // زمان برای طبیعی‌تر شدن تعامل
+      }, 500); // زمان برای طبیعی‌تر شدن تعامل
     });
   });	
 	
