@@ -67,8 +67,8 @@
        }
 
        .nav-item-home {
-           width: 67px;
-           height: 45px;
+           width: 60px;
+           height: 40px;
 	   background: url(assets/navbar/home-icon.png);
 	   background-size: cover;
 	   display: inline-block;
@@ -78,17 +78,18 @@
        }
 
       .nav-item-home:hover {
-	   width: 67px;
-           height: 45px;
+	   width: 60px;
+           height: 40px;
 	   background: url(assets/navbar/home-hover.png);
 	   background-size: cover;
 	   transform: scale(1.45);
            border-radius: 10px;
+	   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
        }
 
        .nav-item-contact {
-           width: 67px;
-           height: 45px;
+           width: 60px;
+           height: 40px;
 	   background: url(assets/navbar/contact-icon.png);
 	   background-size: cover;
            display: inline-block;
@@ -99,17 +100,18 @@
        }
 
       .nav-item-contact:hover {
-	   width: 67px;
-           height: 45px;
+	   width: 60px;
+           height: 40px;
 	   background: url(assets/navbar/contact-hover.png);
 	   background-size: cover;
 	   transform: scale(1.45);
            border-radius: 10px;
+	   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
        }
 	    
        .nav-item-about {
-           width: 67px; /* عرض دلخواه */
-           height: 45px; /* ارتفاع دلخواه */
+           width: 60px; /* عرض دلخواه */
+           height: 40px; /* ارتفاع دلخواه */
 	   background: url(assets/navbar/about-icon.png);
 	   background-size: cover;
 	   display: inline-block;
@@ -120,12 +122,13 @@
        }
 
       .nav-item-about:hover {
-	   width: 67px;
-           height: 45px;
+	   width: 60px;
+           height: 40px;
 	   background: url(assets/navbar/about-hover.png);
 	   background-size: cover;
 	   transform: scale(1.45);
            border-radius: 10px;
+	   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
        }		
 		
        .container {
