@@ -146,7 +146,7 @@
 
         .intro h2.mobile2-title {
             margin: 0;
-            font-size: 2rem;
+            font-size: 2.2rem;
             text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.3);
 	        margin: 20px;
             display: none;
@@ -217,7 +217,7 @@
             background-color: #1078d8;
             color: white;
             border: none;
-            padding: 16px 18px;
+            padding: 14px 16px;
             border-radius: 20%;
             cursor: pointer;
             font-size: 8px;
@@ -231,8 +231,8 @@
         }
 
        .icon-backToTop {
-           width: 18px; /* عرض دلخواه */
-           height: 18px; /* ارتفاع دلخواه */
+           width: 16px; /* عرض دلخواه */
+           height: 16px; /* ارتفاع دلخواه */
 	       transition: transform 0.3s, background-image 0.3s;
        }
 
