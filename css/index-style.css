@@ -63,12 +63,6 @@
 	   height: 60px;
        }
 
-       .nav-item {
-           text-decoration: none;
-           display: inline-block;
-	   vertical-align: middle;
-       }
-
        .nav-item-home {
            width: 60px;
            height: 40px;
@@ -79,6 +73,7 @@
 	   margin: 10px;
 	   border-radius: 10px;
            vertical-align: middle;
+	   text-decoration: none;
        }
 
       .nav-item-home:hover {
@@ -102,6 +97,7 @@
 	   margin-right: 50px;
 	   border-radius: 10px;
 	   vertical-align: middle;
+           text-decoration: none;
        }
 
       .nav-item-contact:hover {
@@ -125,6 +121,7 @@
 	   margin-right: 50px;
 	   border-radius: 10px;
 	   vertical-align: middle;
+           text-decoration: none;
        }
 
       .nav-item-about:hover {
