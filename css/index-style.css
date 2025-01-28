@@ -316,12 +316,28 @@
   #language-box.visible {
       display: flex;
   }
-  .language-persian, .language-english {
+
+  .language-persian {
 	  width: calc(100% - 10px);
 	  background-color: #f5f5f5;
       flex: 1;
       padding: 5px;
       margin-right: 0;
+      border: 1px solid #f0f0f0;
+      border-radius: 4px;
+	  text-align: center;
+	  box-shadow: 0 0 0 rgba(0, 0, 0, 0.2);
+	  text-decoration: none;
+	  color: #333;
+  }
+  
+  .language-english {
+	  width: calc(100% - 10px);
+	  background-color: #f5f5f5;
+      flex: 1;
+      padding: 5px;
+      margin-right: 0;
+	  margin-top: 5px;
       border: 1px solid #f0f0f0;
       border-radius: 4px;
 	  text-align: center;
