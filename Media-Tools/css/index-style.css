@@ -111,6 +111,7 @@ nav a {
 
 nav a:hover {
     color: #055be6;
+	text-shadow: 0 0 15px rgba(5, 91, 230, 1);
     transform: translateY(10px);
 }
 
@@ -388,7 +389,7 @@ nav a:hover {
 	   background: url(assets/footer/telegram-icon.png);
 	   background-size: cover;
 	   display: inline-block;
-           transition: transform 0.3s, background 0.3s, border-radius 0.3s;
+           transition: transform 0.3s, background 0.3s, border 0.3s;
 		   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 	   margin: 10px;
 	   margin-right: 10px;
@@ -399,12 +400,14 @@ nav a:hover {
 
       .foot-item-telegram:hover {
 	   transform: scale(1.2);
-           border-radius: 7px;
-	   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+	   box-shadow: 0 0 35px rgba(5, 91, 230, 0.8);
+		border: 1px solid #055be6;
        }
 
        .foot-item-telegram.hover-active {
            transform: scale(1.2);
+	       box-shadow: 0 0 35px rgba(5, 91, 230, 0.8);
+		border: 1px solid #055be6;
         }
 		
 @media (min-width: 1000px) {
@@ -420,7 +423,8 @@ nav a:hover {
     .foot-item-telegram:hover {
 		width: 45px;
         height: 45px;
-		border-radius: 10px;
+		box-shadow: 0 0 35px rgba(5, 91, 230, 0.8);
+		border: 1px solid #055be6;
     }
 }
 
@@ -430,7 +434,7 @@ nav a:hover {
 	   background: url(assets/footer/email-icon.png);
 	   background-size: cover;
 	   display: inline-block;
-           transition: transform 0.3s, background 0.3s, border-radius 0.3s;
+           transition: transform 0.3s, background 0.3s, border 0.3s;
 		   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 	   margin: -5px;
 	   border-radius: 7px;
@@ -440,12 +444,14 @@ nav a:hover {
 
       .foot-item-email:hover {
 	   transform: scale(1.2);
-           border-radius: 7px;
-	   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+	   box-shadow: 0 0 35px rgba(5, 91, 230, 0.8);
+		border: 1px solid #055be6;
        }
 
        .foot-item-email.hover-active {
            transform: scale(1.2);
+	       box-shadow: 0 0 35px rgba(5, 91, 230, 0.8);
+		border: 1px solid #055be6;
         }
 		
 @media (min-width: 1000px) {
@@ -461,7 +467,8 @@ nav a:hover {
     .foot-item-email:hover {
 		width: 45px;
         height: 45px;
-		border-radius: 10px;
+		box-shadow: 0 0 35px rgba(5, 91, 230, 0.8);
+		border: 1px solid #055be6;
     }
 }
 
@@ -486,7 +493,7 @@ nav a:hover {
 
         footer a:hover {
             color: #055be6;
-	        text-shadow: 0 3px 4px rgba(0, 0, 0, 0.3);
+	        text-shadow: 0 0 15px rgba(5, 91, 230, 1);
         }
 
         .spacer {
