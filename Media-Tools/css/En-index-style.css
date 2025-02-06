@@ -470,7 +470,7 @@ nav a:hover {
 	   background: url(assets/footer/telegram-icon.png);
 	   background-size: cover;
 	   display: inline-block;
-           transition: transform 0.3s, background 0.3s;
+           transition: transform 0.3s, background 0.3s, border 0.3s;
 		   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 	   margin: 10px;
 	   margin-right: 10px;
@@ -515,7 +515,7 @@ nav a:hover {
 	   background: url(assets/footer/email-icon.png);
 	   background-size: cover;
 	   display: inline-block;
-           transition: transform 0.3s, background 0.3s;
+           transition: transform 0.3s, background 0.3s, border 0.3s;
 		   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 	   margin: -5px;
 	   border-radius: 7px;
